@@ -11752,8 +11752,8 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Project-for-Python-Programming">Project for Python Programming<a class="anchor-link" href="#Project-for-Python-Programming">&#182;</a></h1><h2 id="Simulations-for-Flipping-Coins">Simulations for Flipping Coins<a class="anchor-link" href="#Simulations-for-Flipping-Coins">&#182;</a></h2><ul>
-<li>Simulate numbers of heads for 100 times with a replication of 200 times</li>
-<li>Plot the results given the probabilities are 0.3, 0.5 and 0.7</li>
+<li>Simulating numbers of heads for 100 times with a replication of 200 times</li>
+<li>Plotting the results given the probabilities are 0.3, 0.5 and 0.7</li>
 </ul>
 
 </div>
@@ -11768,7 +11768,6 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="n">prob</span> <span class="o">=</span><span class="p">[</span><span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">]</span>
-<span class="c1"># 設定三種顏色及圖案</span>
 <span class="n">colors</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;go&#39;</span><span class="p">,</span> <span class="s1">&#39;ro&#39;</span><span class="p">,</span> <span class="s1">&#39;co&#39;</span><span class="p">]</span>
 <span class="n">ct</span> <span class="o">=</span> <span class="p">[]</span>
 
@@ -12292,8 +12291,6 @@ mZmZlcaJh5mZmZXm/wMEcxAUvUzPUgAAAABJRU5ErkJggg==
     <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.12</span><span class="p">)</span> 
     <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Histogram of Flipping </span><span class="si">%d</span><span class="s2"> coins&quot;</span> <span class="o">%</span> <span class="n">toss</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">ct</span><span class="p">)):</span>
-        <span class="c1">#count, bins, ignored =</span>
-        <span class="c1"># 繪製histogram</span>
         <span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span> <span class="n">ct</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">normed</span><span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">color</span> <span class="o">=</span> <span class="n">col</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">,</span>
                   <span class="n">alpha</span><span class="o">=</span> <span class="mf">0.7</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span><span class="s1">&#39; p = </span><span class="si">%.1f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">prob</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper left&#39;</span><span class="p">,</span> <span class="n">shadow</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -12311,7 +12308,7 @@ mZmZlcaJh5mZmZXm/wMEcxAUvUzPUgAAAABJRU5ErkJggg==
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Plot the histogram</li>
+<li>Plotting the histogram</li>
 </ul>
 
 </div>
